@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
 :root{
     background-color: #212F3D;
@@ -28,3 +29,45 @@ header{
     font-family: 'Oswald', sans-serif;
     font-size: 10px;
 }
+.info-wrapper{
+    display: inline-flex;
+}
+.year{
+    font-size: 9px;
+    font-family: 'Lato', sans-serif;
+
+}
+.content{
+    font-size: 8px;
+    margin: 0px 10px 0px 5px;
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    color: #D4AC0D;
+    
+}
+li{
+    margin: 10px auto;
+}
+#tribute-info{
+    background-color: #2C3E50;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    height: max-content;
+    padding: 10px;
+}
+#tribute-link{
+    color: blue;
+    font-family: 'Lato', sans-serif;
+}
+.finaltext{
+    font-size: 10px;
+    margin: 0px 10px 0px 5px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: white;
+}
+#tribute-link:hover{
+    color: darkblue;
+}
+
